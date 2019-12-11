@@ -1,0 +1,318 @@
+/*DEVELOPER: Krushil Patel, IS117-005, Fall 2019*/
+/*html------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+html{
+	padding:1em 5em 1em 5em;
+	max-width:1500px;
+	background-image: url(../images/bgimage.jpg);
+	color: white;
+}
+body{
+	margin:auto;
+	width:1500px;
+}
+
+
+
+
+
+/*Header------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header h1, h3{
+	text-align: center;
+}
+header img{
+	float:left;
+	width:15%;
+	height:180px;
+}
+header{
+	width:100%;
+	height:200px;
+	color:navy;
+	padding: 1em;
+	border-style: solid 5px maroon;
+	background-image: -webkit-linear-gradient(30deg, #D63509 0%, #D63509 30%, white 50%, #D63509 80%, #D63509 100%);
+
+}
+
+
+
+
+
+
+/*nav------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+nav{
+	width:100%;
+	float:left;
+}
+
+nav a{
+	
+	padding: 4px;
+	display:absolute;
+	text-decoration:none;
+	color:white;
+}
+nav p{
+	
+	width:4%;
+	padding:0;
+	margin:0;
+}
+nav a:hover{
+	text-decoration:none;
+	color: yellow;
+	font-style:italic;
+	font-size:110%;
+}
+
+
+
+
+
+/*Main------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+main{
+	float:left;
+	width:100%;
+}
+main h2{
+	color:#ffffff;
+	margin: 1em;
+}
+
+
+
+
+
+
+/*footer------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+	float:right;
+	height: auto;
+	width:100%;
+	background-color: maroon;
+	color:white;
+	border-top-style: solid 3px maroon;
+}
+footer p{
+	text-align:center;
+	padding:5px 5em 5px 5em;
+}
+
+
+
+
+
+
+
+/*CLASSES Common------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.bold{
+	font-weight: bold;
+}
+.box{
+	margin:1em;
+	padding:1em;
+	border-style:solid 2px maroon;
+	color:#ffffff;
+}
+.box2{
+	background-color: maroon;
+	color: white;
+	margin:6px;
+	padding:3px 1em 3px 1em;
+	border-style:solid 2px maroon;
+}
+.box3{
+	background-color: orange;
+	color: white;
+	margin:6px;
+	padding:3px 1em 3px 1em;
+	border-style:solid 2px orange;
+	border-radius:25px;
+}
+.boxcenter{
+	float:none;
+	margin:0 auto 2em auto;
+}
+.para{
+	float:none;
+	width:50%;
+	border: solid 2px maroon;
+	background-color:navy;
+	color:white;
+	margin:0 auto 2em auto;
+	padding: 5px 3em 1em 3em;
+	font-size:150%;
+	border-radius:25px;
+}
+
+.parahead{
+	width:50%;
+	color:white;
+	border: solid 2px maroon;
+	background-color: navy;
+	
+	margin:1em auto 1em auto;
+	padding:3px;
+	border-radius:10px;
+}
+.selected{
+	background-color: #FFC20E;
+	padding:3px 1em 3px 1em;
+	border-style:solid 2px maroon;
+	border-radius:25px;
+}
+
+
+
+
+
+
+
+
+
+
+/*CLASSES homepage------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container{
+	position:relative;
+	margin:1em;
+	padding:1em 0 1em 0;
+	background-color:navy;
+	border-radius:25px;
+
+}
+.caro{
+	margin:1em auto 1em auto;
+	width:80%;
+	border: solid 1em white;
+	border-radius:25px;
+	background-color:black;
+}
+.carousel-item{
+	margin-left:20%;
+}
+
+
+
+
+
+
+
+
+
+/*CLASSES about us------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.AboutUsimgDesc{
+	width:1200px;
+	text-align:center-right;
+}
+.AboutUsimgDesc p{
+	width:300px;
+	size: 50%;
+	border-radius:10px;
+	margin-bottom:3em;
+}
+.AboutUsimgDesc img{
+	border:solid 1em navy;
+	border-radius:30px;
+	margin:1em 5em 1em 20%;
+}
+
+
+
+
+
+
+
+/*CLASSES services------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#OrderNow{
+	text-align:left;
+	color: white;
+	margin:1em;
+}
+.ServiceGrid{
+	color:white;
+	margin: 1em;
+	padding:1em;
+	display:grid;
+	grid-template: auto auto / auto auto;
+	grid-gap: 1em;
+	Background-color:#47E0FF;
+	border-radius:25px;
+
+	
+}
+.gridSection{
+	padding:10%;
+}
+.gridSection h3{
+	padding:5px;
+	background-color: #38AFC7;
+	border-radius:25px;
+}
+.gridSection p{
+	padding:5px;
+	background-color: #38AFC7;
+	margin:1em;
+	border-radius:10px;
+}
+.gridSection ul{
+	list-style-type: none;
+
+}
+.gridSection li{
+	font-size:120%;
+	padding:5px;
+	background-color: #2E99A3;
+	margin:1em;
+	border-radius:25px;
+}
+.gridSection img{
+	border:solid 7px #3857C7;
+	margin:5px 5em 2em 6em;
+	border-radius:25px;
+}
+.gridbox{
+	border:solid 1em #3857C7;
+	border-radius:25px;
+}
+
+.payment{
+	background-color:white;
+	padding:2em;
+	border-style:solid;
+	border-width:1em;
+	border-color:navy;
+	text-align:center;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:auto;
+
+}
+button{
+	margin-left:20px;
+	margin-right:3px;
+	padding:3px;
+}
+input{
+	margin:5px;
+}
+
+
+
+/*CLASSES contact us------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*CLASSES credits------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+blockquote{
+	color:black;
+}
